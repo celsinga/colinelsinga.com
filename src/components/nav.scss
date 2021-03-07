@@ -1,0 +1,32 @@
+.nav {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+}
+
+button[type="checkbox"]{
+  margin: 20px;
+  height: 60px;
+  width: 60px;
+  -webkit-appearance: none;
+  box-shadow: -2px -5px 5px rgba(255,255,255,0.5), 10px 10px 15px rgba(70, 70, 70, 0.12);
+  border-radius: 50%;
+  outline: none;
+  background-color: #7a7a7a;
+}
+button[type="checkbox"]:after{
+  font-family: FontAwesome;
+  color: #7a7a7a;
+  font-size: 70px;
+}
+button[type="checkbox"]:checked{
+  box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70, 70, 70, 0.12),
+  inset -10px -10px 15px rgba(255,255,255,0.5),
+  inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+button[type="checkbox"]:checked:after{
+  color: #15e38a;
+}
