@@ -1,30 +1,49 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './nav.scss';
-import { render } from 'react-dom';
-import { DatePicker, message } from 'antd';
+import logo from '../me.png';
 import 'antd/dist/antd.css';
 
 export default function Navbar() {
 
-  const [date, setDate] = useState(null);
-  const handleChange = value => {
-    message.info(`Selected Date: ${value ? value.format('YYYY-MM-DD') : 'None'}`);
-    setDate(value);
-  };
   
   return (
     <div className="nav">
-      <button type="checkbox"></button>
+      <img className="photo" src={logo} alt="logo" />
 
       <div style={{ width: 400, margin: '100px auto' }}>
-      <DatePicker onChange={handleChange} />
-      <div style={{ marginTop: 16 }}>
-        Selected Date: {date ? date.format('YYYY-MM-DD') : 'None'}
-      </div>
+        <div className="name">
+          Colin Elsinga
+        </div>
+        <div className="subtitle">
+          Full Stack Developer
+        </div>
       
-    </div>
+      </div>
 
-      <button type="checkbox"></button>
+      <a
+          class="btnsame btn1"
+          href="https://github.com/celsinga"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa fa-github"></i>
+      </a>
+      <a
+        class="btnsame btn2"
+        href="https://twitter.com/@colincodes1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a
+        class="btnsame btn3"
+        href="https://www.linkedin.com/in/colin-elsinga-989647103/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-linkedin"></i>
+      </a>
     </div>
   );
 }

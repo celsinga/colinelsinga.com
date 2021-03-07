@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .nav {
   background-color: transparent;
   width: 100%;
@@ -12,10 +13,12 @@ button[type="checkbox"]{
   height: 60px;
   width: 60px;
   -webkit-appearance: none;
-  box-shadow: -2px -5px 5px rgba(255,255,255,0.5), 10px 10px 15px rgba(70, 70, 70, 0.12);
+  box-shadow: 0px 0px 8px rgba(23, 23, 23);
+  background-color: #282c34;
   border-radius: 50%;
   outline: none;
-  background-color: #7a7a7a;
+  border: 1px black;
+  transform: rotate(-180deg);
 }
 button[type="checkbox"]:after{
   font-family: FontAwesome;
@@ -23,10 +26,61 @@ button[type="checkbox"]:after{
   font-size: 70px;
 }
 button[type="checkbox"]:checked{
+  input[type="checkbox"]:checked{
   box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70, 70, 70, 0.12),
   inset -10px -10px 15px rgba(255,255,255,0.5),
   inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
+}
 button[type="checkbox"]:checked:after{
   color: #15e38a;
+}
+
+.name {
+  margin-top: 0px;
+  font-size: 1.7em;
+  font-family: 'Lato', sans-serif;
+}
+.subtitle {
+  font-size: 0.9em;
+  font-family: 'Lato', sans-serif;
+  color:#7a7a7a;
+}
+.photo {
+  border-radius: 450px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 18px black;
+}
+.btnsame{
+	background: #dde1e7;
+	height: 50px;
+	width: 50px;
+	margin: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	transition: all 400ms;
+	box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	position: relative;
+}
+.btnsame i{
+  font-size: 28px;
+  transition: all 400ms;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  color: #6c757d;
+}
+.btn1:hover i{
+  color: #43de85;
+}
+.btn2:hover i{
+  color:#0088ee;
+}
+.btn3:hover i{
+  color:#3b5998;
 }
