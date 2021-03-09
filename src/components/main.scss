@@ -1,3 +1,4 @@
+
 .main {
   display: flex;
   justify-content: center;
@@ -23,3 +24,20 @@
     color: white;
   }
 }
+
+.projects {
+  display: flex;
+  overflow-x: auto;
+  Paper:hover {
+    box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+
+  }
+}
+
+
+
+
+.subtitle {
+  color: #9a9a9a;
+}
+

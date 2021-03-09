@@ -1,7 +1,30 @@
 import { Component } from "react";
 import './main.scss';
+import Paper from '@material-ui/core/Paper';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  paper: {
+    minWidth: '24em',
+    minHeight: '14em',
+    margin: `${theme.spacing(1)}px ${theme.spacing(1)}px`,
+    padding: theme.spacing(2),
+    backgroundColor: 'transparent',
+    color: 'white',
+    textEmphasis: 'bold',
+    fontSize: 15,
+    boxShadow: '0.2px 1px 7px black',
+    borderRadius: '5px',
+    height: '7em', 
+    filter: 'drop-shadow(0 0 0.15rem black)',
+    overflowX: 'auto',
+  },
+}));
 
 export default function Main() {
+
+  const classes = useStyles();
+
 
   let myDate = new Date();
   let hrs = myDate.getHours();
@@ -16,14 +39,11 @@ export default function Main() {
 
   return (
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
-        <div style={{fontSize: '70px', marginTop: '-120px'}} className="name">
+        <div style={{fontSize: '70px'}} className="name">
           Colin Elsinga
         </div>
-        <div style={{paddingTop: '12px', fontSize: '30px'}} className="subtitle">
-        {greet}!
-        </div>
-        <div style={{paddingTop: '12px', color: 'white'}} className="subtitle">
-          I am a passionate full stack web developer based in Vancouver, Canada.
+        <div style={{paddingTop: '12px', color: '#9a9a9a'}} className="subtitle">
+        {greet}! I am a passionate full stack web developer based in Vancouver, Canada.
         </div>
         <div className="skills">
           <div>
@@ -33,11 +53,25 @@ export default function Main() {
           <div className="name">
             Projects
           </div>
-          <div className="name">
-            Projects  Projects
-          </div>
-          <div className="name">
-            Education
+          <div className="projects">
+            <Paper className={classes.paper}>
+              NBA Dashboard
+            </Paper>
+            <Paper className={classes.paper}>
+              Scheduler
+            </Paper>
+            <Paper className={classes.paper}>
+              JS Blockchain
+            </Paper>
+            <Paper className={classes.paper}>
+              altru.link
+            </Paper>
+            <Paper className={classes.paper}>
+              Tweeter
+            </Paper>
+            <Paper className={classes.paper}>
+              Kigogo
+            </Paper>
           </div>
         </div>
 
