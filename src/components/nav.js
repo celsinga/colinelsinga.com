@@ -2,7 +2,6 @@ import React from 'react';
 import './nav.scss';
 import logo from '../me.png';
 import 'antd/dist/antd.css';
-// import Navitem from "./navitem";
 
 export default function Navbar() {
   
