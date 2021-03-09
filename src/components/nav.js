@@ -17,13 +17,21 @@ export default function Navbar() {
           Full Stack Developer
         </div>
         <p className="location">📍 Vancouver, BC</p>
+        <div className="navbtn">
+          Home
+        </div>
+        <div className="navbtn">
+          Education
+        </div>
+        <div className="navbtn">
+          Contact
+        </div>
       </div>
 
       <div style={{ width: 400, margin: '15px auto', paddingLeft: '200px' }}>
       
       </div>
-      {/* <p style={{padding: '12px', fontSize: '30px'}}>Colin Elsinga</p>
-      <p  style={{padding: '24px 10px', fontSize: '19px'}}>Full Stack Developer</p> */}
+      <p style={{padding: '15px'}}>Colin Elsinga</p>
       <a
           class="btnsame btn1"
           href="https://github.com/celsinga"
