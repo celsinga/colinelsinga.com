@@ -6,8 +6,7 @@ import nba from './nba.png';
 import scheduler from './app2.png';
 import blockchain from './blockchain.png';
 import altru from './altru.png';
-import kigogo from './homepage.png'
-import tweeter from './tweeter.png'
+import tweeter from './tweeter.png';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -55,35 +54,41 @@ export default function Main() {
           <div>
           My Skills
           </div>
-          <p>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Python</p>
+          <p style={{padding: '20px', paddingTop: '-20px'}}>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Python</p>
           <div className="skills">
             Projects
           </div>
           <div className="projects">
+            <a href="https://github.com/celsinga/nba-dashboard" target="_blank" rel="noopener noreferrer">
             <Paper className={classes.paper}>
               <p>NBA Dashboard</p>
               <img src={nba}></img>
             </Paper>
-            <Paper className={classes.paper}>
-              <p>Scheduler</p>
-              <img src={scheduler}></img>
-            </Paper>
+            </a>
+            <a href="altru.link">
             <Paper className={classes.paper}>
               <p>altru.link</p>
               <img src={altru}></img>
             </Paper>
+            </a>
+            <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
             <Paper className={classes.paper}>
               <p>JS Blockchain</p>
               <img src={blockchain}></img>
             </Paper>
+            </a>
+            <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
+            <Paper className={classes.paper}>
+              <p>Scheduler</p>
+              <img src={scheduler}></img>
+            </Paper>
+            </a>
+            <a href="https://github.com/celsinga/tweeter" target="_blank" rel="noopener noreferrer">
             <Paper className={classes.paper}>
               <p>Tweeter</p>
               <img src={tweeter}></img>
             </Paper>
-            <Paper className={classes.paper}>
-              <p>Kigogo</p>
-              <img src={kigogo}></img>
-            </Paper>
+            </a>
           </div>
         </div>
 

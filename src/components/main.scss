@@ -16,7 +16,7 @@
 }
 
 .skills {
-  padding: 36px 36px;
+  padding: 16px 26px;
   color: grey;
   p {
     padding-top: 20px;
@@ -26,9 +26,9 @@
 }
 
 .projects {
-  :hover {
-    box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
-  }
+  // :hover {
+  //   box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+  // }
   display: flex;
   overflow-x: auto;
   p {
