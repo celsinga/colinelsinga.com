@@ -1,4 +1,5 @@
-import { Component } from "react";
+// import { Component } from "react";
+import Tilt from 'react-tilt'
 import './main.scss';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
@@ -14,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     minHeight: '16em',
     margin: `${theme.spacing(1)}px ${theme.spacing(1)}px`,
     padding: theme.spacing(2),
-    backgroundColor: 'transparent',
+    backgroundColor: '#282c34',
     color: 'white',
     textEmphasis: 'bold',
     fontSize: 15,
@@ -23,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     height: '7em', 
     filter: 'drop-shadow(0 0 0.15rem black)',
     overflowX: 'auto',
+    zIndex: 1,
   },
 }));
 
@@ -44,51 +46,61 @@ export default function Main() {
 
   return (
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
-        <div style={{fontSize: '70px'}} className="name">
+        <div style={{fontSize: '70px', paddingTop: '65px'}} className="name">
           Colin Elsinga
         </div>
-        <div style={{paddingTop: '12px', color: '#9a9a9a'}} className="subtitle">
+        <div style={{paddingTop: '12px', color: '#9a9a9a', paddingBottom: '22px'}} className="subtitle">
         {greet}! I am a passionate full stack web developer based in Vancouver, Canada.
         </div>
         <div className="skills">
           <div>
           My Skills
           </div>
-          <p style={{padding: '20px', paddingTop: '-20px'}}>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Python</p>
+          <p style={{paddingTop: '5px', paddingTop: '19px'}}>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Python</p>
           <div className="skills">
             Projects
           </div>
           <div className="projects">
-            <a href="https://github.com/celsinga/nba-dashboard" target="_blank" rel="noopener noreferrer">
-            <Paper className={classes.paper}>
-              <p>NBA Dashboard</p>
-              <img src={nba}></img>
-            </Paper>
-            </a>
-            <a href="altru.link">
-            <Paper className={classes.paper}>
-              <p>altru.link</p>
-              <img src={altru}></img>
-            </Paper>
-            </a>
-            <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
-            <Paper className={classes.paper}>
-              <p>JS Blockchain</p>
-              <img src={blockchain}></img>
-            </Paper>
-            </a>
-            <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
-            <Paper className={classes.paper}>
-              <p>Scheduler</p>
-              <img src={scheduler}></img>
-            </Paper>
-            </a>
-            <a href="https://github.com/celsinga/tweeter" target="_blank" rel="noopener noreferrer">
-            <Paper className={classes.paper}>
-              <p>Tweeter</p>
-              <img src={tweeter}></img>
-            </Paper>
-            </a>
+            <Tilt>
+              <a href="https://github.com/celsinga/nba-dashboard" target="_blank" rel="noopener noreferrer">
+              <Paper className={classes.paper}>
+                <p>NBA Dashboard</p>
+                <img src={nba}></img>
+              </Paper>
+              </a>
+            </Tilt>
+            <Tilt>
+              <a href="altru.link">
+              <Paper className={classes.paper}>
+                <p>altru.link</p>
+                <img src={altru}></img>
+              </Paper>
+              </a>
+            </Tilt>
+            <Tilt>
+              <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
+              <Paper className={classes.paper}>
+                <p>JS Blockchain</p>
+                <img src={blockchain}></img>
+              </Paper>
+              </a>
+            </Tilt>
+            <Tilt>
+              <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
+              <Paper className={classes.paper}>
+                <p>Scheduler</p>
+                <img src={scheduler}></img>
+              </Paper>
+              </a>
+            </Tilt>
+            <Tilt>
+              <a href="https://github.com/celsinga/tweeter" target="_blank" rel="noopener noreferrer">
+              <Paper className={classes.paper}>
+                <p>Tweeter</p>
+                <img src={tweeter}></img>
+              </Paper>
+              </a>
+            </Tilt>
           </div>
         </div>
 

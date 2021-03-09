@@ -29,8 +29,14 @@
   // :hover {
   //   box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
   // }
+  height: 450px;
   display: flex;
   overflow-x: auto;
+  padding-top: 30px;
+  padding-left: 20px;
+  :hover {
+    z-index: 20;
+  }
   p {
     font-size: 15px;
     margin-top: -19px;
