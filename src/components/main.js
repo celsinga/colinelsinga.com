@@ -16,21 +16,29 @@ export default function Main() {
 
   return (
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
-        <div className="name">
-          {greet}!
+        <div style={{fontSize: '70px', marginTop: '-120px'}} className="name">
+          Colin Elsinga
         </div>
-        <div className="subtitle">
-          I am a passionate full stack developer based in Vancouver, Canada. 
+        <div style={{paddingTop: '12px', fontSize: '30px'}} className="subtitle">
+        {greet}!
+        </div>
+        <div style={{paddingTop: '12px', color: 'white'}} className="subtitle">
+          I am a passionate full stack web developer based in Vancouver, Canada.
         </div>
         <div className="skills">
-          <div className="name">
+          <div>
           My Skills
           </div>
           <p>JavaScript/ES6 • React • Node/Express • PostgreSQL • JQuery • Ruby/Rails • AWS • Python</p>
           <div className="name">
             Projects
           </div>
-          <p>Project 1 Project 2 Project 3</p>
+          <div className="name">
+            Projects  Projects
+          </div>
+          <div className="name">
+            Education
+          </div>
         </div>
 
       </div>

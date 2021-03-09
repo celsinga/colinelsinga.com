@@ -31,7 +31,7 @@ export default function Navbar() {
       <div style={{ width: 400, margin: '15px auto', paddingLeft: '200px' }}>
       
       </div>
-      <p style={{padding: '15px'}}>Colin Elsinga</p>
+      {/* <p style={{padding: '15px'}}>Colin Elsinga</p> */}
       <a
           class="btnsame btn1"
           href="https://github.com/celsinga"

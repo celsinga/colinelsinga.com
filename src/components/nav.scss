@@ -66,7 +66,7 @@ button[type="checkbox"]:checked:after{
 	align-items: center;
 	justify-content: center;
 	transition: all 400ms;
-	box-shadow: -1px -2px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
+	box-shadow: -1px -2px 7px black, 3px 3px 5px rgba(18, 18, 19, 0.288);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	position: relative;
 }
@@ -104,25 +104,13 @@ button[type="checkbox"]:checked:after{
   line-height: 1;
   text-align: center;
 }
-//
-nav ul{
-  position: absolute;
-  bottom: 2%;
-  left: 5%;
-  width: 90%;
-  font-size:var(--fontsize-nav) ;
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
-  color: #969696 !important;
-}
 .navbtn
 {
   margin:15px;
   padding: 14px 20px;
   border-radius: 50px;
-  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
+  box-shadow: 1px 1px 17px black, 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
 .navbtn:hover{
-  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+  box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
