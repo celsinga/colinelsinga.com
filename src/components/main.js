@@ -15,11 +15,11 @@ const useStyles = makeStyles((theme) => ({
     minHeight: '16em',
     margin: `${theme.spacing(1)}px ${theme.spacing(1)}px`,
     padding: theme.spacing(2),
-    backgroundColor: '#282c34',
+    backgroundImage: 'linear-gradient(#353535, #282c34, #171718)',
     color: 'white',
     textEmphasis: 'bold',
     fontSize: 15,
-    boxShadow: '0.2px 1px 7px black',
+    boxShadow: 'inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288)',
     borderRadius: '5px',
     height: '7em', 
     filter: 'drop-shadow(0 0 0.15rem black)',
@@ -70,7 +70,7 @@ export default function Main() {
               </a>
             </Tilt>
             <Tilt>
-              <a href="altru.link">
+              <a href="altru.link" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
                 <p>altru.link</p>
                 <img src={altru}></img>
