@@ -46,7 +46,7 @@ export default function Main() {
 
   return (
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
-        <div style={{fontSize: '70px', paddingTop: '155px'}} className="name">
+        <div style={{fontSize: '70px', marginTop: '155px'}} className="name">
           Colin Elsinga
         </div>
         <div style={{color: '#9a9a9a', paddingBottom: '22px', paddingLeft: '25px', paddingRight: '25px'}} className="subtitle">
