@@ -49,7 +49,7 @@ export default function Main() {
           <div>
           My Skills
           </div>
-          <p>JavaScript/ES6 • React • Node/Express • PostgreSQL • JQuery • Ruby/Rails • AWS • Python</p>
+          <p>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Python</p>
           <div className="name">
             Projects
           </div>
@@ -61,10 +61,10 @@ export default function Main() {
               Scheduler
             </Paper>
             <Paper className={classes.paper}>
-              JS Blockchain
+              altru.link
             </Paper>
             <Paper className={classes.paper}>
-              altru.link
+              JS Blockchain
             </Paper>
             <Paper className={classes.paper}>
               Tweeter
