@@ -46,19 +46,19 @@ export default function Main() {
 
   return (
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
-        <div style={{fontSize: '70px', paddingTop: '65px'}} className="name">
+        <div style={{fontSize: '70px', paddingTop: '155px'}} className="name">
           Colin Elsinga
         </div>
-        <div style={{paddingTop: '12px', color: '#9a9a9a', paddingBottom: '22px'}} className="subtitle">
-        {greet}! I am a passionate full stack web developer based in Vancouver, Canada.
+        <div style={{color: '#9a9a9a', paddingBottom: '22px', paddingLeft: '25px', paddingRight: '25px'}} className="subtitle">
+        {greet}! I am a passionate full stack web developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to help companies achieve high customer turnover through inovative design.
         </div>
         <div className="skills">
           <div>
           My Skills
           </div>
-          <p style={{paddingTop: '5px', paddingTop: '19px'}}>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Python</p>
+          <p style={{padding: '15px 10px'}}>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Python</p>
           <div className="skills">
-            Projects
+          My Projects
           </div>
           <div className="projects">
             <Tilt>
@@ -70,7 +70,7 @@ export default function Main() {
               </a>
             </Tilt>
             <Tilt>
-              <a href="altru.link" target="_blank" rel="noopener noreferrer">
+              <a href="http://altru.link/" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
                 <p>altru.link</p>
                 <img src={altru}></img>
