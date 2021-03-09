@@ -26,16 +26,20 @@
 }
 
 .projects {
+  :hover {
+    box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+  }
   display: flex;
   overflow-x: auto;
-  Paper:hover {
-    box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
-
+  p {
+    font-size: 15px;
+    margin-top: -19px;
+  }
+  img {
+    max-width: 75%;
+    max-height: 85%;
   }
 }
-
-
-
 
 .subtitle {
   color: #9a9a9a;
