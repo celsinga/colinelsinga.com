@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.scss';
-import logo from '../me.png';
+import logo from './img/me.png';
 import 'antd/dist/antd.css';
 import {
   Link

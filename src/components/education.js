@@ -1,21 +1,17 @@
 // import { Component } from "react";
-import Tilt from 'react-tilt'
-import './main.scss';
+import './education.scss';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
-import nba from './nba.png';
-import scheduler from './app2.png';
-import blockchain from './blockchain.png';
-import altru from './altru.png';
-import tweeter from './tweeter.png';
+import lighthouse from './img/lighthouse.png'
+import nimbus from './img/nimbus.png'
 
 const useStyles = makeStyles((theme) => ({
   paper: {
     minWidth: '24em',
-    minHeight: '16em',
+    minHeight: '8em',
     margin: `${theme.spacing(2)}px ${theme.spacing(2)}px`,
     padding: theme.spacing(2),
-    backgroundColor: '#058DD9',
+    backgroundImage: 'linear-gradient(black, #004e7a)',
     color: 'white',
     textEmphasis: 'bold',
     fontSize: 15,
@@ -25,6 +21,8 @@ const useStyles = makeStyles((theme) => ({
     filter: 'drop-shadow(0 0 0.15rem black)',
     overflowX: 'auto',
     zIndex: 1,
+    display: 'flex',
+    flexDirection: 'column'
   },
 }));
 
@@ -33,74 +31,54 @@ export default function Education() {
   const classes = useStyles();
 
 
-  let myDate = new Date();
-  let hrs = myDate.getHours();
-  let greet;
-  if (hrs < 12) {
-    greet = 'Good Morning';
-  } else if (hrs >= 12 && hrs <= 17) {
-    greet = 'Good Afternoon';
-  } else if (hrs >= 17 && hrs <= 24) {
-    greet = 'Good Evening';
-  }
-
   return (
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
-        <div style={{fontSize: '70px', marginTop: '155px'}} className="name">
-          Colin Elsinga
-        </div>
-        <div style={{color: 'white', paddingBottom: '22px', paddingLeft: '25px', paddingRight: '25px'}} className="subtitle">
-        {greet}! I am a passionate full stack web developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to help companies achieve high customer turnover through innovative design.
-        </div>
-        <div className="skills">
+        <div className="skills" style={{paddingTop: '180px'}}>
           <div>
-          My Skills
+          Education
           </div>
-          <p style={{padding: '15px 10px'}}>JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Blockchain • Python</p>
+          <img className="lighthouse" src={lighthouse}></img>
+          <p style={{padding: '15px 10px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
+          <img className="nimbus" src={nimbus}></img>
+          <p style={{padding: '15px 10px'}}>Nimbus School of Recording & Media - 2014-16 • Diploma in Music Industry</p>
           <div className="skills" style={{marginTop: '-20px'}}>
-          My Projects
+          Work Experience
           </div>
           <div className="projects" style={{ marginTop: '-15px'}}>
-            <Tilt>
-              <a href="https://github.com/celsinga/nba-dashboard" target="_blank" rel="noopener noreferrer">
+        
+              <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
-                <p>NBA Dashboard</p>
-                <img src={nba}></img>
+                <p>Urban Landscapes Vancouver</p>
+                <p>Lead Horticulurist</p>
+                <p>Jun 2017- Nov 2020</p>
               </Paper>
               </a>
-            </Tilt>
-            <Tilt>
+        
+              <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
+              <Paper className={classes.paper}>
+                <p>Beat Cinema</p>
+                <p>Performer</p>
+                <p>Feb 2019</p>
+              </Paper>
+              </a>
+        
+              <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
+              <Paper className={classes.paper}>
+                <p>Parting Films</p>
+                <p>Boom Operator</p>
+                <p>Jun 2016 - Mar 2017</p>
+              </Paper>
+              </a>
+        
+    
               <a href="http://altru.link/" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
-                <p>altru.link</p>
-                <img src={altru}></img>
+                <p>Freelance Musician</p>
+                <p>Altru</p>
+                <p>2015 - Present</p>
               </Paper>
               </a>
-            </Tilt>
-            <Tilt>
-              <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>Scheduler</p>
-                <img src={scheduler}></img>
-              </Paper>
-              </a>
-            </Tilt>
-            <Tilt>
-              <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>JS Blockchain</p>
-                <img src={blockchain}></img>
-              </Paper>
-              </a>
-            </Tilt>
-            <Tilt>
-              <a href="https://github.com/celsinga/tweeter" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>Tweeter</p>
-                <img src={tweeter}></img>
-              </Paper>
-              </a>
-            </Tilt>
+   
           </div>
         </div>
 

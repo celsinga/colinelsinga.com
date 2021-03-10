@@ -3,11 +3,11 @@ import Tilt from 'react-tilt'
 import './main.scss';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
-import nba from './nba.png';
-import scheduler from './app2.png';
-import blockchain from './blockchain.png';
-import altru from './altru.png';
-import tweeter from './tweeter.png';
+import nba from './img/nba.png';
+import scheduler from './img/app2.png';
+import blockchain from './img/blockchain.png';
+import altru from './img/altru.png';
+import tweeter from './img/tweeter.png';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     minHeight: '16em',
     margin: `${theme.spacing(2)}px ${theme.spacing(2)}px`,
     padding: theme.spacing(2),
-    backgroundColor: '#058DD9',
+    backgroundImage: 'linear-gradient(black, #004e7a)',
     color: 'white',
     textEmphasis: 'bold',
     fontSize: 15,
@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     height: '7em', 
     filter: 'drop-shadow(0 0 0.15rem black)',
     overflowX: 'auto',
-    zIndex: 1,
+    zIndex: 1
   },
 }));
 
@@ -49,7 +49,10 @@ export default function Main() {
         <div style={{fontSize: '70px', marginTop: '155px'}} className="name">
           Colin Elsinga
         </div>
-        <div style={{color: 'white', paddingBottom: '22px', paddingLeft: '25px', paddingRight: '25px'}} className="subtitle">
+        <div className="skills" style={{paddingTop: '10px', paddingBottom: '20px'}}>
+          Full Stack Developer
+        </div>
+        <div style={{color: 'white', paddingBottom: '22px', paddingLeft: '45px', paddingRight: '45px'}} className="subtitle">
         {greet}! I am a passionate full stack web developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to help companies achieve high customer turnover through innovative design.
         </div>
         <div className="skills">

@@ -1,0 +1,66 @@
+.lighthouse {
+  width: 200px;
+  height: 130px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+.nimbus {
+  height: 100px;
+  border-radius: 5px;
+  margin-top: -10px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 800px;
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  background-image: linear-gradient( #282c34, rgb(14, 14, 14));
+  border-radius: 30px;
+  padding-top: 15px;
+  line-height: 1;
+  text-align: center;
+  box-shadow: 0px 1px 13px black, 3px 3px 5px rgb(18 18 19 / 29%);
+}
+
+.skills {
+  padding: 0px 26px;
+  color: #9a9a9a;
+  p {
+    padding-top: 20px;
+    font-size: 28px;
+    color: white;
+  }
+}
+
+.projects {
+  // :hover {
+  //   box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+  // }
+  height: 500px;
+  display: flex;
+  overflow-x: auto;
+  padding-top: 30px;
+  padding-left: 20px;
+  :hover {
+    z-index: 20;
+  }
+  p {
+    font-size: 15px;
+    margin-top: -19px;
+  }
+  img {
+    max-width: 75%;
+    max-height: 85%;
+  }
+}
+
+.subtitle {
+  color: #9a9a9a;
+}
+
+.art {
+  background-image: linear-gradient(#353535, #282c34, #171718);
+}
