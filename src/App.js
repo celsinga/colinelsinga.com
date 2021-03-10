@@ -1,13 +1,31 @@
 import './App.scss';
 import Navbar from './components/nav';
 import Main from './components/main';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Router>
       <Navbar></Navbar>
-      <Main></Main>
+      <Switch>
+            <Route path="/education">
+              {/* <Education /> */}
+            </Route>
+            <Route path="/contact">
+              {/* <Contact /> */}
+            </Route>
+            <Route path="/">
+              <Main />
+            </Route>
+      </Switch>
+      </Router>
+      
       </header>
     </div>
   );

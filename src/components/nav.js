@@ -2,6 +2,9 @@ import React from 'react';
 import './nav.scss';
 import logo from '../me.png';
 import 'antd/dist/antd.css';
+import {
+  Link
+} from "react-router-dom";
 
 export default function Navbar() {
   
@@ -16,15 +19,16 @@ export default function Navbar() {
           Full Stack Developer
         </div>
         <p className="location">📍 Vancouver, BC</p>
-        <div className="navbtn">
-          Home
-        </div>
-        <div className="navbtn">
-          Education
-        </div>
-        <div className="navbtn">
-          Contact
-        </div>
+        
+          <div className="navbtn">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="navbtn">
+            <Link to="/education">Education</Link>
+          </div>
+          <div className="navbtn">
+            <Link to="/contact">Contact</Link>
+          </div>
       </div>
 
       <div style={{ width: 400, margin: '15px auto', paddingLeft: '200px' }}>
