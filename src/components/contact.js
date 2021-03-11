@@ -1,5 +1,4 @@
-import vancouver from './img/vancouver.png'
-
+import vancouver from './img/vancouver.png';
 
 export default function Contact() {
 
@@ -24,7 +23,7 @@ export default function Contact() {
             <div style={{paddingLeft: '10px', paddingTop: '30px'}}>
               <a
                 style={{backgroundColor: 'transparent'}}
-                href="https://github.com/celsinga"
+                href="https://resume.creddle.io/resume/8nkxjv6eyoo"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
@@ -34,7 +33,24 @@ export default function Contact() {
               </div>
               </a>
             </div>
-          </div>
+            
+              <a
+                class="btnsame btn1"
+                href="https://github.com/celsinga"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+           <i class="fa fa-github"></i>
+           </a>
+           <a
+            class="btnsame btn3"
+            href="https://www.linkedin.com/in/colin-elsinga-989647103/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+           <i class="fa fa-linkedin"></i>
+           </a>
+           </div>
          
         </div>
 

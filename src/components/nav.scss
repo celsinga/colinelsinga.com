@@ -110,6 +110,7 @@ button[type="checkbox"]:checked:after{
   padding: 14px 20px;
   border-radius: 50px;
   box-shadow: 1px 1px 17px black, 3px 3px 5px rgba(18, 18, 19, 0.288);
+  transition: box-shadow 4s;
 }
 .navbtn:hover{
   box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);

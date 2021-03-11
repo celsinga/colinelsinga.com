@@ -32,7 +32,7 @@ export default function Education() {
 
 
   return (
-    <div className="main" style={{display: 'flex', flexDirection: 'column', verticalAlign: 'middle'}}>
+    <div className="education" style={{display: 'flex', flexDirection: 'column', verticalAlign: 'middle'}}>
         <div className="skills" style={{paddingTop: '10px'}}>
           <div class="top">
           Education
