@@ -33,23 +33,33 @@ export default function Contact() {
               </div>
               </a>
             </div>
-            
+            <div style={{paddingLeft: '10px', paddingTop: '30px'}}>
               <a
-                class="btnsame btn1"
+                style={{backgroundColor: 'transparent'}}
                 href="https://github.com/celsinga"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-           <i class="fa fa-github"></i>
-           </a>
-           <a
-            class="btnsame btn3"
-            href="https://www.linkedin.com/in/colin-elsinga-989647103/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-           <i class="fa fa-linkedin"></i>
-           </a>
+                <i class="fa fa-github"></i>
+              <div>
+                Github
+              </div>
+              </a>
+            </div>
+            <div style={{paddingLeft: '10px', paddingTop: '30px'}}>
+              <a
+                style={{backgroundColor: 'transparent'}}
+                href="https://www.linkedin.com/in/colin-elsinga-989647103/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <i class="fa fa-linkedin"></i>
+              <div>
+                LinkedIn
+              </div>
+              </a>
+            </div>
+           
            </div>
          
         </div>

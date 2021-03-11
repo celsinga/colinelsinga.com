@@ -34,31 +34,6 @@ export default function Navbar() {
       <div style={{ width: 400, margin: '15px auto', paddingLeft: '200px' }}>
       
       </div>
-      {/* <p style={{padding: '15px'}}>Colin Elsinga</p> */}
-      <a
-          class="btnsame btn1"
-          href="https://github.com/celsinga"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa fa-github"></i>
-      </a>
-      <a
-        class="btnsame btn3"
-        href="https://www.linkedin.com/in/colin-elsinga-989647103/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fa fa-linkedin"></i>
-      </a>
-      <a
-        class="btnsame btn2"
-        href="https://resume.creddle.io/resume/8nkxjv6eyoo"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fa fa-file"></i>
-      </a>
     </div>
   );
 }
