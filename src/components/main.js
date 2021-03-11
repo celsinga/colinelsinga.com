@@ -15,11 +15,11 @@ const useStyles = makeStyles((theme) => ({
     minHeight: '16em',
     margin: `${theme.spacing(2)}px ${theme.spacing(2)}px`,
     padding: theme.spacing(2),
-    backgroundImage: 'linear-gradient(black, #004e7a)',
+    backgroundColor: 'rgb(61, 61, 61)',
     color: 'white',
     textEmphasis: 'bold',
     fontSize: 15,
-    boxShadow: '0px 0px 7px black,  3px 3px 5px rgba(18, 18, 19, 0.288)',
+    boxShadow: 'inset 0px 0px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288)',
     borderRadius: '5px',
     height: '7em', 
     filter: 'drop-shadow(0 0 0.15rem black)',
@@ -53,7 +53,7 @@ export default function Main() {
           Full Stack Developer
         </div>
         <div style={{color: 'white', paddingBottom: '22px', paddingLeft: '45px', paddingRight: '45px'}} className="subtitle">
-        {greet}! I am a passionate full stack web developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to help companies achieve high customer turnover through innovative design.
+        {greet}! I am a passionate full stack developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to help companies achieve high customer turnover through innovative design.
         </div>
         <div className="skills">
           <div>

@@ -2,6 +2,7 @@ import './App.scss';
 import Navbar from './components/nav';
 import Main from './components/main';
 import Education from './components/education';
+import Contact from './components/contact';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,7 +20,7 @@ function App() {
               <Education />
             </Route>
             <Route path="/contact">
-              {/* <Contact /> */}
+              <Contact />
             </Route>
             <Route path="/">
               <Main />

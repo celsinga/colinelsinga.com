@@ -11,11 +11,11 @@ const useStyles = makeStyles((theme) => ({
     minHeight: '8em',
     margin: `${theme.spacing(2)}px ${theme.spacing(2)}px`,
     padding: theme.spacing(2),
-    backgroundImage: 'linear-gradient(black, #004e7a)',
+    backgroundColor: 'rgb(61, 61, 61)',
     color: 'white',
     textEmphasis: 'bold',
     fontSize: 15,
-    boxShadow: '0px 0px 7px black,  3px 3px 5px rgba(18, 18, 19, 0.288)',
+    boxShadow: 'inset 0px 0px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288)',
     borderRadius: '5px',
     height: '7em', 
     filter: 'drop-shadow(0 0 0.15rem black)',
@@ -32,9 +32,9 @@ export default function Education() {
 
 
   return (
-    <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
-        <div className="skills" style={{paddingTop: '180px'}}>
-          <div>
+    <div className="main" style={{display: 'flex', flexDirection: 'column', verticalAlign: 'middle'}}>
+        <div className="skills" style={{paddingTop: '10px'}}>
+          <div class="top">
           Education
           </div>
           <img className="lighthouse" src={lighthouse}></img>
@@ -44,7 +44,7 @@ export default function Education() {
           <div className="skills" style={{marginTop: '-20px'}}>
           Work Experience
           </div>
-          <div className="projects" style={{ marginTop: '-15px'}}>
+          <div className="projects" style={{ verticalAlign: 'middle'}}>
         
               <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
