@@ -10,11 +10,11 @@ export default function Contact() {
 
         <div className="email">
 
-        <img src={vancouver} style={{maxWidth: '80%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} />
+        <img src={vancouver} style={{maxWidth: '70%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} />
           <div className="skills" style={{paddingBottom: '-10px'}}>Contact</div>
 
           <div className="resume" style={{display: 'flex', justifyContent: 'center', padding: '20px 10px'}}>
-            <div style={{paddingLeft: '10px', paddingTop: '30px'}}>
+            <div style={{paddingLeft: '10px', paddingTop: '10px'}}>
             <a
                 style={{backgroundColor: 'transparent'}}
                 href="mailto:colinelsinga@gmail.com"
@@ -25,7 +25,7 @@ export default function Contact() {
               <div>Email</div>
               </a>
             </div>
-            <div style={{paddingRight: '20px', paddingLeft: '40px', paddingTop: '30px'}}>
+            <div style={{paddingRight: '20px', paddingLeft: '40px', paddingTop: '10px'}}>
               <a
                 style={{backgroundColor: 'transparent'}}
                 href="https://github.com/celsinga"
@@ -38,7 +38,7 @@ export default function Contact() {
               </div>
               </a>
             </div>
-            <div style={{paddingLeft: '10px', paddingTop: '30px'}}>
+            <div style={{paddingLeft: '10px', paddingTop: '10px'}}>
               <a
                 style={{backgroundColor: 'transparent'}}
                 href="https://www.linkedin.com/in/colin-elsinga-989647103/"
@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
            
            </div>
-          <div className="skills" style={{marginTop: '10px'}}>Education</div>
+          <div className="skills">Education</div>
           <div style={{padding: '10px'}}>
             <div>
               <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer"><img className="lighthouse" src={lighthouse}></img></a>
