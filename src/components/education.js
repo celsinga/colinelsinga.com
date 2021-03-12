@@ -33,7 +33,7 @@ export default function Education() {
 
   return (
     <div className="education" style={{display: 'flex', flexDirection: 'column', verticalAlign: 'middle'}}>
-        <div className="skills" style={{paddingTop: '10px'}}>
+        <div className="skillsE" style={{paddingTop: '10px'}}>
           <div class="top">
           Education
           </div>
@@ -41,7 +41,7 @@ export default function Education() {
           <p style={{padding: '15px 10px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
           <img className="nimbus" src={nimbus}></img>
           <p style={{padding: '15px 10px'}}>Nimbus School of Recording & Media - 2014-16 • Diploma in Music Industry</p>
-          <div className="skills" style={{marginTop: '-20px'}}>
+          <div className="skillsE" style={{marginTop: '-20px'}}>
           Work Experience
           </div>
           <div className="projects" style={{ verticalAlign: 'middle'}}>
