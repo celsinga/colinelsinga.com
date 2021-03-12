@@ -32,9 +32,7 @@ export default function Navbar() {
 
       </div>
 
-      <div style={{ width: 400, margin: '15px auto', paddingLeft: '200px' }}>
-      
-      </div>
+    
     </div>
   );
 }
