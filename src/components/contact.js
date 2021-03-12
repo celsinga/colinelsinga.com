@@ -1,6 +1,6 @@
 import vancouver from './img/vancouver.png';
 import lighthouse from './img/lighthouse.png'
-import nimbus from './img/nimbus.png';
+import './contact.scss';
 
 export default function Contact() {
 
@@ -56,10 +56,11 @@ export default function Contact() {
           <div className="skills">Education</div>
           <div style={{padding: '10px'}}>
             <div>
-              <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer"><img className="lighthouse" src={lighthouse}></img></a>
-            </div>
+              <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer">
+                <img className="lighthouse" src={lighthouse}></img>
+              </a>
             <p style={{padding: '15px', fontSize: '20px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
-            <div></div>
+            </div>
           </div>
            
          
