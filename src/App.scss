@@ -26,8 +26,6 @@ html {
   font-size: calc(10px + 2vmin);
   color: white;
   background-color: #0c091f;
-
-  // background-image: linear-gradient( #282c34, black);
 }
 
 .App-footer {
@@ -47,5 +45,14 @@ html {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 650px) { 
+  .App-header  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }

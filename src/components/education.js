@@ -1,33 +1,68 @@
-
+import React, { Component } from "react";
+import Slider from "react-slick";
 import './education.scss';
-
-import lighthouse from './img/lighthouse.png'
+import lighthouse from './img/lighthouse.png';
 import nimbus from './img/nimbus.png';
+import jsblockchain from './img/jsblockchain.png';
 
+export default class Education extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: true
+    };
+    return (
+      <div>
+        <Slider {...settings}>
 
-export default function Education() {
-
-  return (
-    <div className="education" style={{display: 'flex', flexDirection: 'column', verticalAlign: 'middle'}}>
-        <div className="skillsE" style={{paddingTop: '10px'}}>
-          <div class="top">
-          Education
-          </div>
-          <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer"><img className="lighthouse" src={lighthouse}></img></a>
-          <p style={{padding: '15px 10px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
-          <a href="https://www.nimbusrecording.com/" target="_blank" rel="noopener noreferrer">
-          <img className="nimbus" src={nimbus}></img>
+          <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer">
+            <div className="slickSlideE">
+              <h3>Lighthouse Labs</h3>
+              <img src={lighthouse}></img>
+              <div className="learned">
+                <div>
+                  <p>Diploma in Web Development</p>
+                </div>
+              </div>
+            </div>
           </a>
-            <p style={{padding: '15px 10px'}}>Nimbus School of Recording & Media - 2014-16 • Diploma in Music Industry</p>
-          <div className="skillsE" style={{marginTop: '-20px'}}>
-          Work Experience
-          </div>
-          <div className="projectsE">
 
+          <a href="https://www.nimbusrecording.com/" target="_blank" rel="noopener noreferrer">
+            <div className="slickSlideE">
+              <h3>Nimbus School of Recording & Media</h3>
+              <img src={nimbus}></img>
+              <div className="learned">
+                <div>
+                  <p>Diploma in Music Industry</p>
+                </div>
+              </div>
+            </div>
+          </a>
 
-     
+          <a href="https://www.udemy.com/course/blockchain-programming-using-javascript/" target="_blank" rel="noopener noreferrer">
+            <div className="slickSlideE">
+              <h3>Blockchain Programming with JavaScript</h3>
+              <img src={jsblockchain}></img>
+              <div className="learned">
+                <div>
+                  <p>Udemy Certificate</p>
+                </div>
+              </div>
+            </div>
+          </a>
+    
+        </Slider>
+      </div>
+    );
+  }
+}
 
-              {/* <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
+{/* <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
                 <p>Urban Landscapes Vancouver</p>
                 <p>Lead Horticulurist</p>
@@ -59,11 +94,3 @@ export default function Education() {
                 <p>2015 - Present</p>
               </Paper>
               </a> */}
-   
-          </div>
-        </div>
-
-      </div>
-  )
-}
-

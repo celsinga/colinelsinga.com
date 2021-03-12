@@ -1,6 +1,8 @@
 import vancouver from './img/vancouver.png';
-import lighthouse from './img/lighthouse.png'
+import lighthouse from './img/lighthouse.png';
+import nimbus from './img/nimbus.png';
 import './contact.scss';
+import Education from './education.js'
 
 export default function Contact() {
 
@@ -10,11 +12,11 @@ export default function Contact() {
 
         <div className="email">
 
-        <img src={vancouver} style={{maxWidth: '70%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} />
-          <div className="skills" style={{paddingBottom: '-10px'}}>Contact</div>
+        
+          <div className="skillsC" style={{paddingBottom: '10px'}}>Contact</div>
 
           <div className="resume" style={{display: 'flex', justifyContent: 'center', padding: '20px 10px'}}>
-            <div style={{paddingLeft: '10px', paddingTop: '10px'}}>
+            <div style={{paddingLeft: '10px', paddingTop: '10px', paddingBottom: '55px'}}>
             <a
                 style={{backgroundColor: 'transparent'}}
                 href="mailto:colinelsinga@gmail.com"
@@ -51,17 +53,30 @@ export default function Contact() {
               </div>
               </a>
             </div>
+
+            
            
            </div>
-          <div className="skills">Education</div>
-          <div style={{padding: '10px'}}>
+           <img src={vancouver} style={{maxWidth: '70%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} className="city" />
+          <div className="skillsC">Education</div>
+          <div className="projectsC">
+          <Education />
+
+          </div>
+          {/* <div style={{padding: '10px'}}>
             <div>
               <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer">
                 <img className="lighthouse" src={lighthouse}></img>
               </a>
-            <p style={{padding: '15px', fontSize: '20px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
+              <p style={{padding: '15px', fontSize: '20px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
             </div>
-          </div>
+            <div>
+              <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer">
+                <img className="lighthouse" src={nimbus}></img>
+              </a>
+              <p style={{padding: '15px', fontSize: '20px'}}>Nimbus School of Recording & Media - 2014-16 • Diploma in Music Industry</p>
+            </div>
+          </div> */}
            
          
         </div>
