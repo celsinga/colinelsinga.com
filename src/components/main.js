@@ -1,17 +1,9 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React from "react";
 import './main.scss';
-import nba from './img/nba.png';
-import scheduler from './img/app2.png';
-import blockchain from './img/blockchain.png';
-import altru from './img/altru.png';
-import tweeter from './img/tweeter.png';
 import Projects from './projects.js';
-
 
 export default function Main() {
   
-
   let myDate = new Date();
   let hrs = myDate.getHours();
   let greet;
@@ -44,42 +36,6 @@ export default function Main() {
           </div>
           <div className="projects">
             <Projects />
-     
-              {/* <a href="https://github.com/celsinga/nba-dashboard" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>NBA Dashboard</p>
-                <img src={nba}></img>
-              </Paper>
-              </a>
-       
-              <a href="http://altru.link/" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>altru.link</p>
-                <img src={altru}></img>
-              </Paper>
-              </a>
-     
-              <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>Scheduler</p>
-                <img src={scheduler}></img>
-              </Paper>
-              </a>
-       
-              <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>JS Blockchain</p>
-                <img src={blockchain}></img>
-              </Paper>
-              </a>
-       
-              <a href="https://github.com/celsinga/tweeter" target="_blank" rel="noopener noreferrer">
-              <Paper className={classes.paper}>
-                <p>Tweeter</p>
-                <img src={tweeter}></img>
-              </Paper>
-              </a> */}
-     
           </div>
         </div>
 

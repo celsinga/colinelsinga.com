@@ -2,17 +2,21 @@
   display: flex;
   justify-content: center;
   width: 70%;
-  height: 800px;
+  height: 850px;
   position: absolute;
-  top: 3%;
+  top: 4%;
   right: 2%;
-  background-image: linear-gradient(#282c34, rgb(14, 14, 14));
+  background-color: #181438;
   border-radius: 30px;
   padding-top: 100px !important;
   line-height: 1;
   text-align: center;
   box-shadow: 0px 1px 13px black, 3px 3px 5px rgb(18 18 19 / 29%);
+  .name {
+    margin-top: -80px;
+  }
 }
+
 
 .skills {
   padding: 16px 26px;
@@ -26,7 +30,7 @@
 }
 
 .projects {
-  padding: 35px 35px;
+  padding: 35px 75px;
 }
 
 .subtitle {
