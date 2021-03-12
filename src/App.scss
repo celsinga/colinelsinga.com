@@ -45,7 +45,7 @@ html {
   }
   to {
     transform: rotate(360deg);
-  }
+  } 
 }
 
 
@@ -53,6 +53,5 @@ html {
   .App-header  {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
   }
 }

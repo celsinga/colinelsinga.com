@@ -1,6 +1,4 @@
 import vancouver from './img/vancouver.png';
-import lighthouse from './img/lighthouse.png';
-import nimbus from './img/nimbus.png';
 import './contact.scss';
 import Education from './education.js'
 
@@ -11,73 +9,67 @@ export default function Contact() {
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
 
         <div className="email">
-
+          <img src={vancouver} style={{maxWidth: '70%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} className="city" />
         
           <div className="skillsC" style={{paddingBottom: '10px'}}>Contact</div>
 
-          <div className="resume" style={{display: 'flex', justifyContent: 'center', padding: '20px 10px'}}>
-            <div style={{paddingLeft: '10px', paddingTop: '10px', paddingBottom: '55px'}}>
+          <div className="resume" style={{display: 'flex', justifyContent: 'center', padding: '20px 20px', alignItems: 'center'}}>
+            <div style={{paddingBottom: '55px', paddingRight: '70px'}}>
             <a
+                class="btnsame btn2"
                 style={{backgroundColor: 'transparent'}}
                 href="mailto:colinelsinga@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                <i class="fa fa-envelope"></i>
-              <div>Email</div>
+                <i class="fa fa-envelope"><div>Email</div></i>
               </a>
             </div>
-            <div style={{paddingRight: '20px', paddingLeft: '40px', paddingTop: '10px'}}>
+            <div style={{paddingBottom: '55px', paddingRight: '70px'}}>
               <a
+                class="btnsame btn1"
                 style={{backgroundColor: 'transparent'}}
                 href="https://github.com/celsinga"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                <i class="fa fa-github"></i>
-              <div>
-                Github
-              </div>
+                <i class="fa fa-github"><div>Github</div></i>
               </a>
             </div>
-            <div style={{paddingLeft: '10px', paddingTop: '10px'}}>
+            <div style={{paddingBottom: '55px', paddingRight: '80px'}}>
               <a
+                class="btnsame btn3"
                 style={{backgroundColor: 'transparent'}}
                 href="https://www.linkedin.com/in/colin-elsinga-989647103/"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                <i class="fa fa-linkedin"></i>
-              <div>
-                LinkedIn
-              </div>
+                <i class="fa fa-linkedin"><div>LinkedIn</div></i>
               </a>
+              
             </div>
 
-            
+            <div style={{paddingBottom: '55px', paddingRight: '80px'}}>
+              <a
+                class="btnsame btn2"
+                style={{backgroundColor: 'transparent'}}
+                href="https://resume.creddle.io/resume/8nkxjv6eyoo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <i class="fa fa-file"><div>Resume</div></i>
+              </a>
+              
+            </div>
+
            
            </div>
-           <img src={vancouver} style={{maxWidth: '70%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} className="city" />
+           
           <div className="skillsC">Education</div>
           <div className="projectsC">
           <Education />
 
           </div>
-          {/* <div style={{padding: '10px'}}>
-            <div>
-              <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer">
-                <img className="lighthouse" src={lighthouse}></img>
-              </a>
-              <p style={{padding: '15px', fontSize: '20px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
-            </div>
-            <div>
-              <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer">
-                <img className="lighthouse" src={nimbus}></img>
-              </a>
-              <p style={{padding: '15px', fontSize: '20px'}}>Nimbus School of Recording & Media - 2014-16 • Diploma in Music Industry</p>
-            </div>
-          </div> */}
-           
          
         </div>
 

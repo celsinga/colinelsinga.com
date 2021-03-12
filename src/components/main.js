@@ -30,7 +30,7 @@ export default function Main() {
           <div>
           My Skills
           </div>
-          <p style={{padding: '15px 10px'}} className="subtitle">JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Blockchain • Python</p>
+          <p style={{padding: '15px 10px'}} className="subtitle">JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Blockchain • Python • TypeScript</p>
           <div className="skills">
           My Projects
           </div>

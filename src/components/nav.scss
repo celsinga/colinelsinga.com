@@ -57,7 +57,6 @@ button[type="checkbox"]:checked:after{
   box-shadow: 0px 0px 18px black;
 }
 .btnsame{
-	background: #dde1e7;
 	height: 50px;
 	width: 50px;
 	margin: 15px 25px;
@@ -66,8 +65,8 @@ button[type="checkbox"]:checked:after{
 	align-items: center;
 	justify-content: center;
 	transition: all 400ms;
-	box-shadow: -1px -2px 7px black, 3px 3px 5px rgba(18, 18, 19, 0.288);
-	border: 1px solid rgba(255, 255, 255, 0.3);
+	// box-shadow: -1px -2px 7px black, 3px 3px 5px rgba(18, 18, 19, 0.288);
+	// border: 1px solid rgba(255, 255, 255, 0.3);
 	position: relative;
 }
 .btnsame i{
@@ -76,7 +75,7 @@ button[type="checkbox"]:checked:after{
   position: absolute;
   top: 20%;
   left: 25%;
-  color: #6c757d;
+  color: white;
 }
 .btn1:hover i{
   color: #43de85;
@@ -89,9 +88,9 @@ button[type="checkbox"]:checked:after{
 }
 
 .location {
-  margin-top: 20px;
   font-size: 28px;
   color: #c9c9c9;
+  margin-top: -10px;
 }
 
 .sidebar {
@@ -104,8 +103,7 @@ button[type="checkbox"]:checked:after{
   line-height: 1;
   text-align: center;
 }
-.navbtn
-{
+.navbtn {
   margin:15px;
   padding: 14px 20px;
   border-radius: 50px;
@@ -115,3 +113,4 @@ button[type="checkbox"]:checked:after{
 .navbtn:hover{
   box-shadow: inset -3px -3px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
+
