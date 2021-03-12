@@ -44,7 +44,7 @@ export default function Education() {
           <div className="skillsE" style={{marginTop: '-20px'}}>
           Work Experience
           </div>
-          <div className="projects" style={{ verticalAlign: 'middle'}}>
+          <div className="projectsE" style={{ verticalAlign: 'middle'}}>
         
               <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
