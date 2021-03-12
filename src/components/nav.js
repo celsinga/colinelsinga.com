@@ -18,10 +18,8 @@ export default function Navbar() {
         <div className="subtitle">
           Full Stack Developer
         </div>
+        
         <p className="location">📍 Vancouver, BC</p>
-        <div className="subtitle" style={{paddingBottom: '18px'}}>
-          <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">Get Resume</a>
-        </div>
           <div className="navbtn">
             <Link to="/">Home</Link>
           </div>

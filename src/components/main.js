@@ -20,7 +20,7 @@ export default function Main() {
         <div style={{fontSize: '70px'}} className="name">
           Colin Elsinga
         </div>
-        <div className="skills" style={{paddingTop: '10px', paddingBottom: '20px'}}>
+        <div className="skills" style={{padding: '15px', paddingBottom: '20px'}}>
           Full Stack Developer
         </div>
         <div style={{color: 'white', paddingBottom: '22px', paddingLeft: '45px', paddingRight: '45px'}} className="subtitle">
@@ -37,6 +37,9 @@ export default function Main() {
           <div className="projects">
             <Projects />
           </div>
+        <div className="subtitle" style={{paddingBottom: '18px'}}>
+          <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" style={{ color: '#1890ff', display: 'flex', flexDirection: 'column', fontSize: '18px'}}> <i class="fa fa-file"></i> Get Resume</a>
+        </div>
         </div>
 
       </div>

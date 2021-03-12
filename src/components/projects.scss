@@ -9,15 +9,22 @@
   justify-content: space-between;
   box-shadow: inset 0px 1px 13px black, inset 3px 3px 5px rgb(18 18 19 / 29%);
   h3 {
-    color: white;
+    color: #e52e71;
+    text-decoration: bold;
+    font-size: 24px;
+    padding-top: 8px;
+    padding-left: 8px;
   }
   img {
     max-width: 38%;
     border-radius: 10px;
   }
   p {
-    color: white;
-    padding: 1px 1px;
+    color: #ff8a00;
+    padding: 4px 8px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    box-shadow: 0px 1px 13px black, 3px 3px 5px rgb(18 18 19 / 29%);
   }
   .learned {
     display: flex;
@@ -27,11 +34,5 @@
 }
 
 .slickSlide:hover {
-  p {
-    color: #ff8a00
-  }
-  h3 {
-    color: #e52e71;
-  }
-  
+
 }
