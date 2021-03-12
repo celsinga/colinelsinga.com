@@ -16,9 +16,9 @@ function App() {
       <Router>
       <Navbar></Navbar>
       <Switch>
-            <Route path="/education">
+            {/* <Route path="/education">
               <Education />
-            </Route>
+            </Route> */}
             <Route path="/contact">
               <Contact />
             </Route>

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-.slickSlide {
+.work {
   font-family: Lato, sans-serif;
   background: #17141d;
-  height: 240px;
+  height: 180px;
   border-radius: 20px;
   display: flex;
   padding: 15px 25px;
@@ -31,4 +31,8 @@
     align-items: flex-end;
     padding: 1px;
   }
+}
+
+.slickSlide:hover {
+
 }

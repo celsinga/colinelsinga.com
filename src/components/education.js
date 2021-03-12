@@ -1,35 +1,12 @@
-// import { Component } from "react";
-import './education.scss';
-import Paper from '@material-ui/core/Paper';
-import { makeStyles } from '@material-ui/core/styles';
-import lighthouse from './img/lighthouse.png'
-import nimbus from './img/nimbus.png'
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    minWidth: '24em',
-    minHeight: '8em',
-    margin: `${theme.spacing(2)}px ${theme.spacing(2)}px`,
-    padding: theme.spacing(2),
-    backgroundColor: 'rgb(61, 61, 61)',
-    color: 'white',
-    textEmphasis: 'bold',
-    fontSize: 15,
-    boxShadow: 'inset 0px 0px 7px black, inset 3px 3px 5px rgba(18, 18, 19, 0.288)',
-    borderRadius: '5px',
-    height: '7em', 
-    filter: 'drop-shadow(0 0 0.15rem black)',
-    overflowX: 'auto',
-    zIndex: 1,
-    display: 'flex',
-    flexDirection: 'column'
-  },
-}));
+import './education.scss';
+
+import lighthouse from './img/lighthouse.png'
+import nimbus from './img/nimbus.png';
+import Work from './work.js';
+
 
 export default function Education() {
-
-  const classes = useStyles();
-
 
   return (
     <div className="education" style={{display: 'flex', flexDirection: 'column', verticalAlign: 'middle'}}>
@@ -46,9 +23,12 @@ export default function Education() {
           <div className="skillsE" style={{marginTop: '-20px'}}>
           Work Experience
           </div>
-          <div className="projectsE" style={{ verticalAlign: 'middle'}}>
-        
-              <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
+          <div className="projectsE">
+
+
+            <Work />
+
+              {/* <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
                 <p>Urban Landscapes Vancouver</p>
                 <p>Lead Horticulurist</p>
@@ -79,7 +59,7 @@ export default function Education() {
                 <p>Altru</p>
                 <p>2015 - Present</p>
               </Paper>
-              </a>
+              </a> */}
    
           </div>
         </div>

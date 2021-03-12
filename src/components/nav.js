@@ -20,14 +20,14 @@ export default function Navbar() {
         </div>
         
         <p className="location">📍 Vancouver, BC</p>
-          <div className="navbtn">
+          <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
             <Link to="/">Home</Link>
           </div>
-          <div className="navbtn">
-            <Link to="/education">Education</Link>
+          <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
+            <Link to="/contact">About</Link>
           </div>
-          <div className="navbtn">
-            <Link to="/contact">Contact</Link>
+          <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
+            <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" >Resume</a>
           </div>
 
       </div>

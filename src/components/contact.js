@@ -1,16 +1,19 @@
 import vancouver from './img/vancouver.png';
+import lighthouse from './img/lighthouse.png'
+import nimbus from './img/nimbus.png';
 
 export default function Contact() {
 
 
   return (
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
+
         <div className="email">
-          <div className="skills" style={{paddingBottom: '40px', marginTop: '-120px'}}>Contact</div>
+          <div className="skills" style={{paddingBottom: '40px', marginTop: '-120px'}}>Education</div>
           <img src={vancouver} style={{maxWidth: '80%', paddingBottom: '20px', borderRadius: '20px'}} />
 
           <div className="subtitle" style={{paddingTop: '28px'}}>
-              <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" style={{ color: '#9a9a9a', display: 'flex', flexDirection: 'column', fontSize: '28px'}}> <i class="fa fa-file"></i>Get Resume</a>
+              <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" style={{ color: '#9a9a9a', display: 'flex', flexDirection: 'column', fontSize: '28px'}}> <i class="fa fa-file"></i>Resume</a>
            </div>
           <div className="resume" style={{display: 'flex', justifyContent: 'center', padding: '20px 10px'}}>
             <div style={{paddingLeft: '10px', paddingTop: '30px'}}>
@@ -52,9 +55,11 @@ export default function Contact() {
             </div>
            
            </div>
-
+           
          
         </div>
+
+        
       </div>
   )
 }
