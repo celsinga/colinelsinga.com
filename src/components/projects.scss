@@ -1,23 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .slickSlide {
   font-family: Lato, sans-serif;
-  background-color: #17141d;
-  color: white;
+  background: #17141d;
   height: 180px;
-  border-radius: 40px;
+  border-radius: 20px;
   display: flex;
   padding: 15px 25px;
   justify-content: space-between;
   box-shadow: inset 0px 1px 13px black, inset 3px 3px 5px rgb(18 18 19 / 29%);
+  h3 {
+    color: white;
+  }
   img {
     max-width: 38%;
+    border-radius: 10px;
   }
   p {
     color: white;
-    padding: 0;
+    padding: 1px 1px;
   }
   .learned {
     display: flex;
     align-items: flex-end;
+    padding: 1px;
   }
+}
+
+.slickSlide:hover {
+  p {
+    color: #ff8a00
+  }
+  h3 {
+    color: #e52e71;
+  }
+  
 }
