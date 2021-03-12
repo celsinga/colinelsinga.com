@@ -24,7 +24,7 @@ export default function Navbar() {
             <Link to="/">Home</Link>
           </div>
           <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
-            <Link to="/contact">About</Link>
+            <Link to="/contact">Contact</Link>
           </div>
           <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
             <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" >Resume</a>

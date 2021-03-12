@@ -37,9 +37,9 @@ export default function Main() {
           <div className="projects">
             <Projects />
           </div>
-        <div className="subtitle" style={{paddingTop: '18px'}}>
+        {/* <div className="subtitle" style={{paddingTop: '18px'}}>
           <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" style={{ color: '#1890ff', display: 'flex', flexDirection: 'column', fontSize: '23px'}}> <i class="fa fa-file"></i> Get Resume</a>
-        </div>
+        </div> */}
         </div>
 
       </div>

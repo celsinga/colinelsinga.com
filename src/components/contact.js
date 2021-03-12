@@ -9,12 +9,10 @@ export default function Contact() {
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
 
         <div className="email">
-          <div className="skills" style={{paddingBottom: '40px', marginTop: '-120px'}}>Education</div>
-          <img src={vancouver} style={{maxWidth: '80%', paddingBottom: '20px', borderRadius: '20px'}} />
 
-          <div className="subtitle" style={{paddingTop: '28px'}}>
-              <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" style={{ color: '#9a9a9a', display: 'flex', flexDirection: 'column', fontSize: '28px'}}> <i class="fa fa-file"></i>Resume</a>
-           </div>
+        <img src={vancouver} style={{maxWidth: '80%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} />
+          <div className="skills" style={{paddingBottom: '-10px'}}>Contact</div>
+
           <div className="resume" style={{display: 'flex', justifyContent: 'center', padding: '20px 10px'}}>
             <div style={{paddingLeft: '10px', paddingTop: '30px'}}>
             <a
@@ -55,6 +53,14 @@ export default function Contact() {
             </div>
            
            </div>
+          <div className="skills" style={{marginTop: '10px'}}>Education</div>
+          <div style={{padding: '10px'}}>
+            <div>
+              <a href="https://www.lighthouselabs.ca/" target="_blank" rel="noopener noreferrer"><img className="lighthouse" src={lighthouse}></img></a>
+            </div>
+            <p style={{padding: '15px', fontSize: '20px'}}>Lighthouse Labs - 2020-21 • Diploma in Web Development</p>
+            <div></div>
+          </div>
            
          
         </div>
