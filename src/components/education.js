@@ -3,7 +3,6 @@ import './education.scss';
 
 import lighthouse from './img/lighthouse.png'
 import nimbus from './img/nimbus.png';
-import Work from './work.js';
 
 
 export default function Education() {
@@ -26,7 +25,7 @@ export default function Education() {
           <div className="projectsE">
 
 
-            <Work />
+     
 
               {/* <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer">
               <Paper className={classes.paper}>
