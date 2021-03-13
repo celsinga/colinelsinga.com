@@ -22,7 +22,7 @@ export default function Navbar() {
         
         <p style={{paddingTop: '20px', paddingRight: '20px'}}> 
           <a
-                class="btnsame btn1"
+                class="btnsame btn5"
                 style={{backgroundColor: 'transparent'}}
                 href="https://github.com/celsinga"
                 target="_blank"

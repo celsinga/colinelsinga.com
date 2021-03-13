@@ -51,7 +51,7 @@ export default function Contact() {
 
             <div style={{paddingBottom: '55px', paddingRight: '80px'}}>
               <a
-                class="btnsame btn2"
+                class="btnsame btn4"
                 style={{backgroundColor: 'transparent'}}
                 href="https://resume.creddle.io/resume/8nkxjv6eyoo"
                 target="_blank"
