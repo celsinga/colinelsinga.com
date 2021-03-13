@@ -46,3 +46,48 @@
   }
 }
 }
+
+
+@media screen and (max-width: 1525px) { 
+
+  .slickSlideE {
+    img {
+      max-height: 76%;
+    }
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 1225px) { 
+
+  .slickSlideE {
+    img {
+      max-height: 56%;
+    }
+  }
+
+ 
+}
+
+@media screen and (max-width: 800px) { 
+
+  .slickSlideE {
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px 10px
+    img {
+      max-height: 72%;
+    }
+    .learned {
+      p {
+        font-size: 8px;
+      }
+    }
+  }
+
+ 
+ 
+}

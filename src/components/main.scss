@@ -2,11 +2,11 @@
   display: flex;
   justify-content: center;
   width: 70%;
-  height: 850px;
+  height: 890px;
   position: absolute;
-  top: 4%;
+  top: 5%;
   right: 2%;
-  background-image: linear-gradient(#181438,  #0c091f);
+  background-image: linear-gradient(#1c1841,  #110d2b);
   border-radius: 30px;
   padding-top: 100px !important;
   line-height: 1;
@@ -43,4 +43,30 @@
 
 .paper {
   background-color: white;
+}
+
+@media screen and (max-width: 1025px) { 
+
+  .main {
+    height: 700px;
+  }
+
+ 
+}
+
+@media screen and (max-width: 1243px) { 
+
+  .main {
+    height: 800px;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 550px) { 
+  .main {
+    left: 2%;
+    width: 500px;
+  }
 }

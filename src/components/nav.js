@@ -19,8 +19,9 @@ export default function Navbar() {
           Full Stack Developer
         </div>
         
+        <p className="location">📍 Vancouver, BC</p>
         
-        <p style={{paddingTop: '20px', paddingRight: '20px'}}> 
+        <p style={{paddingRight: '20px'}}> 
           <a
                 class="btnsame btn5"
                 style={{backgroundColor: 'transparent'}}
@@ -32,7 +33,6 @@ export default function Navbar() {
             </a>
         </p>
 
-        <p className="location">📍 Vancouver, BC</p>
 
           <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
             <Link to="/">Home</Link>

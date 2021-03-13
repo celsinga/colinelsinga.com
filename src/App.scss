@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-html {
-  background-color: #0c091f;
+html, body {
+  background-color: #0c091f !important;
 }
 
 .App-logo {
@@ -19,10 +19,6 @@ html {
 
 .App-header {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   background-color: #0c091f;
@@ -48,17 +44,26 @@ html {
   } 
 }
 
+//iPad Screen
+@media screen and (max-width: 1025px) { 
+  .sidebar {
+    margin-top: 24px;
+  }
+ 
+}
 
-@media screen and (max-width: 650px) { 
+@media screen and (max-width: 550px) { 
   .App-header  {
-    min-height: 100vh;
-    display: inline-block;
-    // flex-direction: row;
-    // align-items: center;
-    // flex-wrap: wrap;
-    // justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
     background-color: #0c091f;
+  }
+  .main {
+    margin-top: 600px;
   }
 }

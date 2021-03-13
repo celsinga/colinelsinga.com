@@ -34,7 +34,7 @@
   }
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1220px) {
   .slickSlide {
     height: 200px;
   h3 {
@@ -44,5 +44,50 @@
     font-size: 11px;
     padding: none;
   }
+  img {
+    max-height: 88%;
+  }
 }
+}
+
+@media screen and (max-width: 1025px) { 
+
+  .slickSlide {
+    img {
+      max-height: 82%;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 955px) { 
+
+  .slickSlide {
+    img {
+      max-height: 72%;
+    }
+  }
+ 
+}
+
+
+@media screen and (max-width: 800px) { 
+
+  .slickSlide {
+    flex-direction: column;
+    align-items: center;
+    height: 480px;
+    padding: 10px 10px
+    img {
+      max-height: 72%;
+    }
+    .learned {
+      p {
+        font-size: 8px;
+      }
+    }
+  }
+
+ 
+ 
 }

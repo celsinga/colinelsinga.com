@@ -13,7 +13,10 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Router>
+      <div>
       <Navbar></Navbar>
+      </div>
+      <div>
       <Switch>
             <Route path="/contact">
               <Contact />
@@ -22,6 +25,7 @@ function App() {
               <Main />
             </Route>
       </Switch>
+      </div>
       </Router>
       
       </header>
