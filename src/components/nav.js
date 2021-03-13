@@ -24,7 +24,7 @@ export default function Navbar() {
         <p style={{paddingRight: '20px'}}> 
           <a
                 class="btnsame btn5"
-                style={{backgroundColor: 'transparent'}}
+                style={{backgroundColor: 'transparent', fontSize: '28px'}}
                 href="https://github.com/celsinga"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export default function Navbar() {
             </a>
         </p>
 
-
+        <div className="pagelinks">
           <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
             <Link to="/">Home</Link>
           </div>
@@ -43,6 +43,7 @@ export default function Navbar() {
           <div className="navbtn" style={{backgroundImage: 'linear-gradient(#181438,  #0c091f)'}}>
             <a href="https://resume.creddle.io/resume/8nkxjv6eyoo" target="_blank" rel="noopener noreferrer" >Resume</a>
           </div>
+        </div>  
          
 
       </div>

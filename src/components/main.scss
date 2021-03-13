@@ -4,7 +4,7 @@
   width: 70%;
   height: 890px;
   position: absolute;
-  top: 5%;
+  top: 3%;
   right: 2%;
   background-image: linear-gradient(#1c1841,  #110d2b);
   border-radius: 30px;
@@ -50,6 +50,9 @@
   .main {
     height: 700px;
   }
+  .name {
+    font-size: 35px;
+  }
 
  
 }
@@ -59,14 +62,33 @@
   .main {
     height: 800px;
   }
-
  
 }
 
 
-@media screen and (max-width: 550px) { 
+@media screen and (max-width: 566px) { 
   .main {
-    left: 2%;
-    width: 500px;
+    left: 20px;
+    right: 30px;
+    bottom: 30px;
+    width: 140%;
+    top: 120px;
+  }
+  .subtitle {
+    font-size: 20px;
+    
+  }
+}
+
+
+@media screen and (max-width: 360px) { 
+  .main {
+    height: 1040px;
+  }
+}
+
+@media screen and (max-width: 230px) { 
+  .main {
+    height: 1200px;
   }
 }
