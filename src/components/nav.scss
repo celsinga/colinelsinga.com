@@ -103,8 +103,8 @@ button[type="checkbox"]:checked:after{
 
 .sidebar {
   max-width: 23%;
-  height: 900%;
-  position: absolute;
+  // height: 300px;
+  // position: absolute;
   top: 0%;
   left: 2%;
   padding: 0;
@@ -123,20 +123,36 @@ button[type="checkbox"]:checked:after{
 }
 
 @media screen and (max-width: 566px) { 
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 1px;
+  }
   
   .sidebar {
-    width: 100%;
+    width: 400px;
     display: flex;
     align-items: center;
-    padding-left: 80px;
+    // margin-right: 0%;
     .photo {
       margin-top: 0px;
-      width: 300px
+      width: 80%;
     }
   }
 
+  .navbtn {
+    padding: 2px 2px;
+  }
   .pagelinks {
     display: flex;
     justify-content: center;
+  }
+}
+
+
+
+@media screen and (max-width: 360px) { 
+  .nav {
+    margin-left: 25px;
   }
 }

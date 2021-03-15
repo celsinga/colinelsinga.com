@@ -68,11 +68,26 @@
 
 @media screen and (max-width: 566px) { 
   .main {
-    left: 20px;
-    right: 30px;
+    left: 8px;
+    right: 5px;
     bottom: 30px;
-    width: 140%;
-    top: 120px;
+    width: 400px;
+    margin-top: 450px;
+    height: 1040px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .main {
+    left: 8px;
+    right: 5px;
+    bottom: 30px;
+    width: 360px;
+    margin-top: 450px;
+    height: 1040px;
   }
   .subtitle {
     font-size: 20px;
