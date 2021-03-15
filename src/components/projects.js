@@ -25,7 +25,7 @@ export default class Projects extends Component {
           <a href="https://github.com/celsinga/nba-dashboard" target="_blank" rel="noopener noreferrer">
             <div className="slickSlide">
               <h3>NBA Dashboard</h3>
-              <img src={nba}></img>
+              <img src={nba} alt="nba-dashboard"></img>
               <div className="learned">
                 <div>
                   <p>React</p>
@@ -43,7 +43,7 @@ export default class Projects extends Component {
           <a href="http://altru.link/" target="_blank" rel="noopener noreferrer">
             <div className="slickSlide">
               <h3>altru.link</h3>
-              <img src={altru}></img>
+              <img src={altru} alt="altrulink"></img>
               <div className="learned">
                 <div>
                   <p>HTML5</p>
@@ -60,7 +60,7 @@ export default class Projects extends Component {
           <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
             <div className="slickSlide">
               <h3>Scheduler</h3>
-              <img src={scheduler}></img>
+              <img src={scheduler} alt="scheduler"></img>
               <div className="learned">
                 <div>
                   <p>React</p>
@@ -78,7 +78,7 @@ export default class Projects extends Component {
           <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
             <div className="slickSlide">
               <h3>JS Blockchain</h3>
-              <img src={blockchain}></img>
+              <img src={blockchain} alt="js-blockchain"></img>
               <div className="learned">
                 <div>
                   <p>Node.js</p>
@@ -95,7 +95,7 @@ export default class Projects extends Component {
           <a href="https://github.com/celsinga/tweeter" target="_blank" rel="noopener noreferrer">
             <div className="slickSlide">
               <h3>Tweeter</h3>
-              <img src={tweeter}></img>
+              <img src={tweeter} alt="twitter-clone"></img>
               <div className="learned">
                 <div>
                   <p>jQuery</p>

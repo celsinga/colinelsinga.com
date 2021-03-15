@@ -9,7 +9,7 @@ export default function Contact() {
     <div className="main" style={{display: 'flex', flexDirection: 'column'}}>
 
         <div className="email">
-          <img src={vancouver} style={{maxWidth: '70%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} className="city" />
+          <img src={vancouver} style={{maxWidth: '70%', paddingBottom: '20px', borderRadius: '20px', marginTop: '-50px'}} className="city" alt="Vancouver" />
         
           <div className="skillsC" style={{paddingBottom: '10px'}}>Contact</div>
 

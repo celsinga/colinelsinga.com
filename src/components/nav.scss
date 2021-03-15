@@ -7,6 +7,7 @@
   position: absolute;
   top: 0%;
   font-family: 'Lato', sans-serif;
+  padding-left: 30px;
 }
 
 button[type="checkbox"]{
@@ -126,11 +127,11 @@ button[type="checkbox"]:checked:after{
   .nav {
     display: flex;
     justify-content: center;
-    margin-left: 1px;
+    padding-right: 11px;
   }
   
   .sidebar {
-    width: 400px;
+    width: 99%;
     display: flex;
     align-items: center;
     // margin-right: 0%;
@@ -150,9 +151,3 @@ button[type="checkbox"]:checked:after{
 }
 
 
-
-@media screen and (max-width: 360px) { 
-  .nav {
-    margin-left: 25px;
-  }
-}

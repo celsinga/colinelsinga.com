@@ -68,11 +68,25 @@
 
 @media screen and (max-width: 566px) { 
   .main {
+    left: 3px;
+    right: 5px;
+    bottom: 30px;
+    width: 97%;
+    margin-top: 470px;
+    height: 1040px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 415px) { 
+  .main {
     left: 8px;
     right: 5px;
     bottom: 30px;
-    width: 400px;
-    margin-top: 450px;
+    width: 97%;
+    margin-top: 470px;
     height: 1040px;
   }
   .subtitle {
@@ -85,7 +99,7 @@
     left: 8px;
     right: 5px;
     bottom: 30px;
-    width: 360px;
+    width: 97%;
     margin-top: 450px;
     height: 1040px;
   }
@@ -98,11 +112,13 @@
 @media screen and (max-width: 360px) { 
   .main {
     height: 1040px;
+    width: 97%;
   }
 }
 
 @media screen and (max-width: 230px) { 
   .main {
     height: 1200px;
+    width: 97%;
   }
 }
