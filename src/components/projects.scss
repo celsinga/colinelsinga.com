@@ -76,7 +76,7 @@
   .slickSlide {
     flex-direction: column;
     align-items: center;
-    height: 480px;
+    height: 670px;
     padding: 10px 10px;
     img {
       max-height: 72%;
@@ -92,8 +92,9 @@
 @media screen and (max-width: 566px) { 
   .slickSlide {
     height: 280px;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    width: auto;
   }
 }
 

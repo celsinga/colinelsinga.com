@@ -29,10 +29,9 @@ export default class Projects extends Component {
               <div className="learned">
                 <div>
                   <p>React</p>
-                  <p>Material UI</p>
+                  <p>Axios</p>
                 </div>
                 <div>
-                  <p>Axios</p>
                   <p>Express</p>
                   <p>Python</p>
                 </div>
@@ -69,7 +68,6 @@ export default class Projects extends Component {
                 <div>
                   <p>API</p>
                   <p>HTTP</p>
-                  <p>JSON</p>
                 </div>
               </div>
             </div>
