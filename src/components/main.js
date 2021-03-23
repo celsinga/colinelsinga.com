@@ -24,13 +24,13 @@ export default function Main() {
           Full Stack Developer
         </div>
         <div style={{color: 'white', paddingBottom: '22px', paddingLeft: '45px', paddingRight: '45px'}} className="subtitle">
-        {greet}! I am a passionate full stack developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to help companies achieve high customer turnover through innovative design.
+        {greet}! I am a passionate full stack developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to provide powerful experiences through innovative designs.
         </div>
         <div className="skills">
           <div>
           My Skills
           </div>
-          <p style={{padding: '15px 10px'}} className="subtitle">JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Blockchain • Python • TypeScript</p>
+          <p style={{padding: '15px 10px'}} className="subtitle">JavaScript/ES6 • React • Node/Express • PostgreSQL • HTML5/CSS • JQuery • Ruby/Rails • AWS • Blockchain • Python</p>
           <div className="skills">
           My Projects
           </div>

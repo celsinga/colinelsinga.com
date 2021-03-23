@@ -39,6 +39,23 @@ export default class Projects extends Component {
             </div>
           </a>
 
+          <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
+            <div className="slickSlide">
+              <h3>JS Blockchain</h3>
+              <img src={blockchain} alt="js-blockchain"></img>
+              <div className="learned">
+                <div>
+                  <p>Node.js</p>
+                  <p>Express</p>
+                </div>
+                <div>
+                  <p>Proof of Work</p>
+                  <p>Mining</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
           <a href="http://altru.link/" target="_blank" rel="noopener noreferrer">
             <div className="slickSlide">
               <h3>altru.link</h3>
@@ -68,23 +85,6 @@ export default class Projects extends Component {
                 <div>
                   <p>API</p>
                   <p>HTTP</p>
-                </div>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
-            <div className="slickSlide">
-              <h3>JS Blockchain</h3>
-              <img src={blockchain} alt="js-blockchain"></img>
-              <div className="learned">
-                <div>
-                  <p>Node.js</p>
-                  <p>Express</p>
-                </div>
-                <div>
-                  <p>Proof of Work</p>
-                  <p>Mining</p>
                 </div>
               </div>
             </div>
