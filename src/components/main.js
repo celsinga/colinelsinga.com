@@ -24,7 +24,7 @@ export default function Main() {
           Full Stack Developer
         </div>
         <div style={{color: 'white', paddingBottom: '22px', paddingLeft: '45px', paddingRight: '45px'}} className="subtitle">
-        {greet}! I am a passionate full stack developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code. I am excited to provide powerful experiences through innovative designs.
+        {greet}! I am a passionate full stack developer based in Vancouver, Canada. Coming from a background in audio engineering, I have always had a love for software and technology, which is the reason I began teaching myself to code.  I am excited to apply my knowledge of the domain to provide innovative solutions.
         </div>
         <div className="skills">
           <div>
