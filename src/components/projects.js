@@ -39,6 +39,23 @@ export default class Projects extends Component {
             </div>
           </a>
 
+          <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
+            <div className="slickSlide">
+              <h3>Scheduler</h3>
+              <img src={scheduler} alt="scheduler"></img>
+              <div className="learned">
+                <div>
+                  <p>React</p>
+                  <p>PostgreSQL</p>
+                </div>
+                <div>
+                  <p>API</p>
+                  <p>HTTP</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
           <a href="https://github.com/celsinga/blockchain-model" target="_blank" rel="noopener noreferrer">
             <div className="slickSlide">
               <h3>JS Blockchain</h3>
@@ -68,23 +85,6 @@ export default class Projects extends Component {
                 <div>  
                   <p>JavaScript</p>
                   <p>AWS</p>
-                </div>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/celsinga/scheduler" target="_blank" rel="noopener noreferrer">
-            <div className="slickSlide">
-              <h3>Scheduler</h3>
-              <img src={scheduler} alt="scheduler"></img>
-              <div className="learned">
-                <div>
-                  <p>React</p>
-                  <p>PostgreSQL</p>
-                </div>
-                <div>
-                  <p>API</p>
-                  <p>HTTP</p>
                 </div>
               </div>
             </div>
